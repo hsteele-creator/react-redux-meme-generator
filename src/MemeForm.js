@@ -28,7 +28,7 @@ const MemeForm = () => {
         <label for="bottom">Bottom Text:</label>
         <input type="text" id="bottom" ref={bottomRef}></input>
 
-        <button onClick={addMeme} type="submit">Generate Meme</button>
+        <button id="generate-meme" onClick={addMeme} type="submit">Generate Meme</button>
     </form>
     </div>
     )

@@ -10,10 +10,10 @@ const memes = useSelector(store => store)
 console.log(memes)
 
     return (
-    <>
+        <>
     <MemeForm />
     {memes.map((m, i ) => {
-        return <Meme index={i}/>
+        return  <Meme index={i}/>
     })}
     </>
     )

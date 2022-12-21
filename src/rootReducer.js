@@ -1,4 +1,4 @@
-const INTIAL_STATE = [{image: "", top: "", bottom: ""}]
+const INTIAL_STATE = []
 
 const rootReducer = (state=INTIAL_STATE, action) => {
     switch(action.type) {
@@ -11,7 +11,7 @@ const rootReducer = (state=INTIAL_STATE, action) => {
                 bottom: action.payload.bottom}
             ]
         case("REMOVE_MEME"):
-            return state.filter((m, i ) => i != action.payload)
+            return state.filter((m, i ) => i != action.payload.index)
         default:
             return state
     }

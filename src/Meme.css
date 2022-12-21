@@ -1,6 +1,35 @@
+h1 {
+    color: black;
+}
+
 #Meme-container {
-    width: 300px;
-    margin: 10px auto 0 auto;
-    background-color: lightblue;
     text-align: center;
+    position: relative;
+}
+
+#meme-img {
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+ #top-text {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+ }
+
+ #bottom-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+#remove-btn {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -17,10 +17,10 @@ const bottomText = useSelector(store => store[index].bottom);
 
     return (
         <div id="Meme-container">
-        <img src={image} width="200px"></img>
-        <h1>{topText}</h1>
-        <h1>{bottomText}</h1>
-        <button onClick={remove}>Remove</button>
+        <img id="meme-img" src={image} width="200px"></img>
+        <h1 id="top-text">{topText}</h1>
+        <h1 id="bottom-text">{bottomText}</h1>
+        <button id="remove-btn" onClick={remove}>Remove</button>
         </div>
     )
 }

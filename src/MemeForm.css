@@ -6,3 +6,8 @@
 input {
     width: 100%
 }
+
+#generate-meme {
+    margin: 10px 80px;
+    width: 150px;
+}
