@@ -15,14 +15,16 @@ const image = useSelector(store => store[index].image);
 const topText = useSelector(store => store[index].top);
 const bottomText = useSelector(store => store[index].bottom);
 
-    return (
+if(image !== "" && topText !== "" && bottomText !== "") {
+    return(
         <div id="Meme-container">
         <img id="meme-img" src={image} width="200px"></img>
         <h1 id="top-text">{topText}</h1>
         <h1 id="bottom-text">{bottomText}</h1>
-        <button id="remove-btn" onClick={remove}>Remove</button>
+        <a id="remove-btn" onClick={remove}> 🗑️ </a>
         </div>
     )
+}
 }
 
 export default Meme

@@ -18,6 +18,8 @@ const MemeForm = () => {
 
     return (
     <div id="form-container">
+
+        <h2 id="title">GENERATE YOUR MEME</h2>
     <form>
         <label for="image">Meme Image:</label>
         <input type="text" id="image" ref={imageRef}></input>
