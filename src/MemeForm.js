@@ -13,7 +13,11 @@ const MemeForm = () => {
 
     const addMeme = (e) => {
         e.preventDefault();
-        dispatch({type: "ADD_MEME", payload: {image: imageRef.current.value, top: topRef.current.value, bottom: bottomRef.current.value}})
+        dispatch({type: "ADD_MEME", payload: {image: imageRef.current.value, top: topRef.current.value, bottom: bottomRef.current.value}});
+
+        imageRef.current.value = "";
+        topRef.current.value = "";
+        bottomRef.current.value = "";
     }
 
     return (

@@ -21,7 +21,7 @@ if(image !== "" && topText !== "" && bottomText !== "") {
         <img id="meme-img" src={image} width="200px"></img>
         <h1 id="top-text">{topText}</h1>
         <h1 id="bottom-text">{bottomText}</h1>
-        <a id="remove-btn" onClick={remove}> 🗑️ </a>
+        <button id="remove-btn" onClick={remove}> Delete </button>
         </div>
     )
 }

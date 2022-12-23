@@ -1,5 +1,5 @@
 #title {
-    color: black;
+    color: aqua;
 }
 
 #form-container {
@@ -11,7 +11,7 @@ input {
     width: 100%;
     border-radius: 6px;
     border: none;
-    padding: 4px 0;
+    padding: 4px;
     margin: 10px 0;
 }
 
@@ -19,13 +19,13 @@ input {
     margin: 10px 80px;
     width: 150px;
     border-radius: 20px;
-    border: 1px solid #8458B3;
+    border: 1px solid aqua;
     padding: 6px;
-    background-color: #50577A;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #generate-meme:hover {
     cursor: pointer;
-    background-color: #6B728E;
+    background-color: aqua;
 }

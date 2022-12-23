@@ -20,6 +20,7 @@ h1 {
     top: 20%;
     transform: translate(-50%, -50%);
     font-size: 14px;
+    color: white;
  }
 
  #bottom-text {
@@ -28,6 +29,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 14px;
+    color: white;
  }
 
 #remove-btn {
@@ -35,8 +37,11 @@ h1 {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: red;
+    background-color: white;
     border: none;
-    color: white;
+    padding: 6px 8px;
+    border-radius: 6px;
 }
 
 #remove-btn:hover {
